@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to left,rgba(0,0,0.5,0.92),rgba(0,0,0,0.92)),url(img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    }
+
+.login-ekrani{
+    background-color: dimgrey;
+    height: 400px;
+    width: 400px;
+    margin-left: 240px;
+    margin-top:12%;
+    box-shadow: 3px 12px 139px -22px rgba(252,252,252,0.63);
+    border-radius: 40px;       position: relative;
+    float: left;
+    
+}
+.secim{
+    background-color:gray;
+    height: 10%;
+    border-radius: 30px;
+    position: relative;
+    box-shadow: 0 0 10px 1px;  
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: #80ccff;
+}
+input[type=text],[type=password]{
+     width: 70%;
+      padding: 10px 0;
+      margin: 8px 60px;
+     border: none;
+    background: transparent;
+    border-bottom: 1px solid #80ccff;
+    display: block;
+    text-align: center;
+    color: white;
+    
+}
+input[type=submit]{
+    padding: 15px 30px;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+    border-radius: 20px;
+    background: linear-gradient(to right,#80ccff,#ccebff);
+    color: white;
+    font-size: 20px;
+}
+input:focus{
+    outline: 0;
+    font-size: 25px;
+    transition: 0.5s;
+}
+.icerik{
+    padding: 30px 0;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    color:  #80ccff;
+    font-size: 18px;
+}
