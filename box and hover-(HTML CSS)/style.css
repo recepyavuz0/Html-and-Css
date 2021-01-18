@@ -1,0 +1,73 @@
+#ortala{
+    width: 700px;
+    height: 300px;
+    background-color: aquamarine;
+    margin: 0px auto;
+}
+
+#kutu1{
+    width:150px;
+    height: 150px;
+    background-color: red;
+    float: left;
+    margin-right: 10px;
+     margin-top: 15px;
+    margin-left: 20px;
+}
+#kutu2{
+    width:150px;
+    height: 150px;
+    background-color: yellow;
+    float: left;
+  margin-right: 10px;
+     margin-top: 15px;
+    margin-left: 10px;
+    
+}
+#kutu3{
+    width:150px;
+    height: 150px;
+    background-color: blue;
+    float: left;
+    margin-right: 10px;
+     margin-top: 15px;
+    margin-left: 10px;
+}
+#kutu4{
+    width:150px;
+    height: 150px;
+    background-color: green;
+    float: left;
+      margin-right: 10px;
+     margin-top: 15px;
+    margin-left: 10px;
+}
+#kutu5{
+    width:660px;
+    height: 100px;
+    background-color:azure;
+    float: left;
+    clear: both;
+     margin-top: 15px;
+    margin-left: 20px;
+    
+}
+#kutu1:hover{
+    background-color: aquamarine;
+}
+
+#kutu2:hover{
+    background-color: aquamarine;
+}
+
+#kutu3:hover{
+    background-color: aquamarine;
+}
+
+#kutu4:hover{
+    background-color: aquamarine;
+}
+
+#kutu5:hover{
+    background-color: aquamarine;
+}
